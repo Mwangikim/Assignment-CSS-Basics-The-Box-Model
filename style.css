@@ -1,0 +1,92 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Section */
+header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Introduction Section */
+.intro {
+  background-color: #e6f2ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #0077cc;
+  border-radius: 6px;
+}
+
+/* Card Section */
+.card {
+  background-color: #fff;
+  padding: 25px;
+  margin: 20px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.card button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.card button:hover {
+  background-color: #005fa3;
+}
+
+/* Example Section */
+.example {
+  background-color: #fdf6e3;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px dashed #d4aa00;
+  border-radius: 8px;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 6px;
+}
